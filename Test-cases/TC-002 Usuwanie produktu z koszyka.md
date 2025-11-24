@@ -53,18 +53,4 @@ Rzeczywisty rezultat (actual result)
 - Po odświeżeniu produkt nie jest widoczny w koszyku.
 
 
-Status-Pass
-
-Uwagi / kroki dodatkowe
-
-Jeśli alert nie pojawił się, otwórz DevTools (F12) → Console i Network i sprawdź błędy.
-W DevTools - Console pojawił się błąd: Uncaught SyntaxError: Unexpected token '<'.
-Błąd pojawia się natychmiast po naciśnięciu przycisku "Add to cart".
-Po odświeżeniu strony problem nadal występuje — produkt nie dodaje się do koszyka.
-Priorytet / Severity
-
-Priorytet: High
-Severity: Critical
-Linki / dodatkowe pliki
-
-Zrzut ekranu - Bug-reports/BR-001 Błąd koszyka.png
+Status PASS
