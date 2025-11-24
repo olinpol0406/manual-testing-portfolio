@@ -24,7 +24,7 @@ Zweryfikować poprawność procesu złożenia zamówienia: dodanie produktu do k
 
 Kroki testowe (Steps)
 1. Otwórz stronę https://www.demoblaze.com  
-2. Na liście produktów wybierz produkt (np. Samsung Galaxy S6) i kliknij "Add to cart" → potwierdź alert.  
+2. Na liście produktów wybierz produkt (np. Samsung Galaxy S6) i kliknij "Add to cart".  
 3. Kliknij w górnym menu "Cart" (Koszyk).  
 4. Kliknij przycisk "Place Order".  
 5. W formularzu zamówienia wypełnij wymagane pola.
@@ -42,16 +42,7 @@ Oczekiwany rezultat (Expected result)
 - Po zamknięciu potwierdzenia koszyk jest pusty.
 
 
-Rzeczywisty rezultat (Actual result)
-- 
-
-Status PASS / FAIL
-
-Uwagi / Kroki dodatkowe
-- Przy problemach zanotuj komunikaty błędów i logi z DevTools (Console/Network).  
-- Jeśli formularz nie waliduje poprawnie pól, zapisz które pola akceptują niepoprawne dane.  
-- Dołącz screenshot potwierdzenia do raportów.
+Rzeczywisty rezultat = Oczekiwany rezultat
 
 
-Priority: High  
-Severity: Major / Critical
+Status PASS
