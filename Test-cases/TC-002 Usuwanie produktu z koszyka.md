@@ -24,32 +24,35 @@ Cel testu Sprawdzić, czy użytkownik może usunąć produkt dodany wcześniej d
 
 Warunki wstępne (preconditions)
 
-Strona Demoblaze jest dostępna (https://www.demoblaze.com).
-Użytkownik dodał przynajmniej jeden produkt do koszyka np. Samsung Galaxy S6.
+- Strona Demoblaze jest dostępna (https://www.demoblaze.com).
+- Użytkownik dodał przynajmniej jeden produkt do koszyka np. Samsung Galaxy S6.
 
 Kroki testowe (steps)
 
-Otwórz stronę https://www.demoblaze.com
-Na liście produktów kliknij produkt np. Samsung Galaxy S6.
-Na stronie produktu kliknij przycisk Add to cart.
-Potwierdź OK, (jeśli się pojawi).
-Kliknij w górnym menu Cart (Koszyk).
-Na liście produktów w koszyku kliknij "Delete" lub "Usuń"
-Jeśli nie nastąpiła automatyczna aktualizacja odśwież stronę
-Sprawdź listę produktów w koszyku.
+1. Otwórz stronę https://www.demoblaze.com
+2. Na liście produktów kliknij produkt np. Samsung Galaxy S6.
+3. Na stronie produktu kliknij przycisk Add to cart.
+4. Potwierdź OK, (jeśli się pojawi).
+5. Kliknij w górnym menu Cart (Koszyk).
+6. Na liście produktów w koszyku kliknij "Delete" lub "Usuń"
+7. Jeśli nie nastąpiła automatyczna aktualizacja odśwież stronę
+8. Sprawdź listę produktów w koszyku.
 
 
 Oczekiwany rezultat (expected result)
 
-Produkt zostaje usunięty z koszyka.
-Cena i ilość produktu aktualizują się.
-Po odświeżeniu produkt nie jest widoczny w koszyku.
+- Produkt zostaje usunięty z koszyka.
+- Cena i ilość produktu aktualizują się.
+- Po odświeżeniu produkt nie jest widoczny w koszyku.
 
 
 Rzeczywisty rezultat (actual result)
 
-Po kliknięciu "Add to cart" pojawia się alert "Product added" ale produkt nie pojawia się w koszyku.
-Status FAIL
+- Produkt zostaje usunięty z koszyka.
+- Cena i ilość produktu aktualizują się.
+- Po odświeżeniu produkt nie jest widoczny w koszyku.
+
+
 
 Uwagi / kroki dodatkowe
 
