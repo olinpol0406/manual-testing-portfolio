@@ -53,6 +53,7 @@ Rzeczywisty rezultat (actual result)
 - Po odświeżeniu produkt nie jest widoczny w koszyku.
 
 
+Status-Pass
 
 Uwagi / kroki dodatkowe
 
