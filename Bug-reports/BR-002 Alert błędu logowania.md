@@ -1,5 +1,6 @@
 BR-002 Nieczytelny komunikat błędu przy logowaniu niepoprawnymi danymi
 
+
 Identyfikator: BR-001 
 Moduł: Logowanie / Login form 
 Aplikacja: https://www.demoblaze.com 
@@ -13,14 +14,12 @@ Opis błędu
 Podczas próby logowania nieistniejącym użytkownikiem aplikacja wyświetla zbyt ogólny komunikat: *„User does not exist.”*  
 Komunikat nie określa, czy błąd dotyczy loginu, hasła, czy obu pól, co jest niezgodne z dobrymi praktykami UX
 
+
 Środowisko
 
 Przeglądarka: Google Chrome 141.0.7390.124
-
 System: Windows 10 Home, 64 bit
-
 Tryb: normalny
-
 Urządzenie: Laptop/Desktop
 
 
@@ -32,12 +31,12 @@ Użytkownik jest na stronie głównej.
 
 Kroki do reprodukcji
 
- Otwórz https://www.demoblaze.com  
-2. Kliknij *“Log in”*  
-3. Wpisz login: fake_user_123  
-4. Wpisz hasło: Test1234!  
-5. Kliknij przycisk *“Log in”*  
-6. Zaobserwuj alert i zachowanie UI 
+Otwórz https://www.demoblaze.com  
+Kliknij “Log in”* 
+Wpisz login: testerFake2025
+Wpisz hasło: Test123  
+Kliknij przycisk “Log in” 
+Zaobserwuj alert i zachowanie interfejsu użytkownika 
 
 
 Rzeczywisty rezultat
@@ -68,17 +67,7 @@ mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 
 
 
----
 
-## Kroki do reprodukcji (steps to reproduce):
-1. Otwórz https://www.demoblaze.com  
-2. Kliknij *“Log in”*  
-3. Wpisz login: fake_user_123  
-4. Wpisz hasło: Test1234!  
-5. Kliknij przycisk *“Log in”*  
-6. Zaobserwuj alert i zachowanie UI  
-
----
 
 ## Oczekiwany rezultat:
 - Czytelny, precyzyjny komunikat błędu, np.:  
