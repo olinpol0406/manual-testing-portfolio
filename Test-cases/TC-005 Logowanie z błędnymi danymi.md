@@ -10,31 +10,29 @@ System: Windows 10 Home, 64 bit
 Tryb: normalny  
 Urządzenie: Laptop/Desktop
 
-DATA: 2025-11-18  
+DATA: 2025-12-03  
+
 TESTER: Olga
 
-Identyfikator TC: TC-003
+Identyfikator: TC-005
 
----
 
 Warunki wstępne (preconditions):
 
 - Strona https://www.demoblaze.com jest dostępna.
 - Użytkownik znajduje się na stronie głównej.
-- Użytkownik NIE posiada konta o nazwie fake_user_123.
+- Użytkownik NIE posiada konta o nazwie testerFake2025.
 
----
 
 Kroki testowe (steps):
 
 1. Otwórz stronę https://www.demoblaze.com  
-2. Kliknij przycisk *Log in*  
-3. Wpisz login: fake_user_123  
-4. Wpisz hasło: Test1234!  
+2. Kliknij przycisk "Log in"  
+3. Wpisz login: testerFake2025 
+4. Wpisz hasło: Test123  
 5. Kliknij przycisk *Log in*  
 6. Obserwuj komunikat na ekranie oraz zachowanie strony
 
----
 
 Oczekiwany rezultat (expected result):
 
