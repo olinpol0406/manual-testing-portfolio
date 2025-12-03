@@ -30,30 +30,30 @@ Kroki testowe (steps):
 2. Kliknij przycisk "Log in"  
 3. Wpisz login: testerFake2025 
 4. Wpisz hasło: Test123  
-5. Kliknij przycisk *Log in*  
+5. Kliknij przycisk "Log in" 
 6. Obserwuj komunikat na ekranie oraz zachowanie strony
 
 
 Oczekiwany rezultat (expected result):
 
-- Powinien pojawić się alert z informacją typu:  
-  *"User does not exist"*  
+- Powinien pojawić się alert z informacją:  
+  "User does not exist"
+- System powinien pokazać informacje co jest niepoprawne (login lub hasło)
 - Użytkownik NIE zostaje zalogowany.
-- W prawym górnym rogu nadal widoczne są przyciski *Log in* / *Sign up*.
-- Brak przycisku *Log out*.
+- W prawym górnym rogu nadal widoczne są przyciski "Log in" / "Sign up".
+- Brak przycisku "Log out".
 
----
 
 Rzeczywisty rezultat (actual result):
 
 - Zamiast jasnego komunikatu o błędzie, aplikacja wyświetla alert:  
-  *"User does not exist."* (z kropką)
-- Konsola DevTools pokazuje ostrzeżenie dotyczące błędu JS przy próbie logowania (może być Unexpected token lub błąd requestu).
-- UI nie informuje o tym, czy to hasło czy login jest niepoprawne.
+  "User does not exist."
+- Komunikat nie precyzuje czy błędny jes login, hasło czy oba pola
+- Konsola DevTools pokazuje drobne ostrzeżenia (WAN/VIOLATION), brak poważnych błędów JS.
+
 
 Status: FAIL
 
----
 
 Uwagi / kroki dodatkowe:
 
@@ -62,18 +62,13 @@ Uwagi / kroki dodatkowe:
 - Sprawdzić w Console, czy pojawiają się błędy JS.  
 - Zrobić screenshot alertu i konsoli.
 
----
 
 Priorytet / Severity:
 
 - Priorytet: Medium  
 - Severity: Minor  
 
----
 
 Linki / dodatkowe pliki:
 
 - Zrzut ekranu → Bug-reports/BR-003 Logowanie błąd.png
-STORE
-Wysłano
-Napisz do:
