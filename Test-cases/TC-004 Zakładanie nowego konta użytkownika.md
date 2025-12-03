@@ -1,4 +1,4 @@
-TC-002 — Zakładanie nowego konta użytkownika
+TC-004 — Zakładanie nowego konta użytkownika
 
 APLIKACJA: https://www.demoblaze.com  
 
@@ -10,7 +10,7 @@ DATA: 2025-12-03
 
 TESTER: Olga  
 
-Identyfikator TC: TC-002
+Identyfikator TC: TC-004
 
 Warunki wstępne (preconditions):
 
