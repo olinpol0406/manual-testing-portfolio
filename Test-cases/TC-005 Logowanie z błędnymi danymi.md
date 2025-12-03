@@ -71,4 +71,5 @@ Priorytet / Severity:
 
 Linki / dodatkowe pliki:
 
-- Zrzut ekranu → Bug-reports/BR-003 Logowanie błąd.png
+- Zrzut ekranu → Bug-reports/BR-002 Błąd logowania_1.png
+- Zrzut ekranu → Bug-reports/BR-002 Błąd logowania_2.png
