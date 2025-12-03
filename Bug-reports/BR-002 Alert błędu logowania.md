@@ -1,25 +1,72 @@
-BR-002 — Nieczytelny komunikat błędu przy logowaniu niepoprawnymi danymi
+BR-002 Nieczytelny komunikat błędu przy logowaniu niepoprawnymi danymi
 
-Identyfikator: BR-003  
-Zgłosił: Olga  
+Identyfikator: BR-001 
+Moduł: Logowanie / Login form 
+Aplikacja: https://www.demoblaze.com 
 Data: 2025-12-03
+Zgłaszający: Olga 
+Status: Otwarte (Open)
 
----
 
-## Aplikacja:
-https://www.demoblaze.com
+Opis błędu
 
-## Środowisko:
-- Przeglądarka: Google Chrome 141.0.7390.124  
-- System: Windows 10 Home, 64 bit  
-- Urządzenie: Laptop/Desktop  
-- Tryb: normalny  
-
----
-
-## Opis błędu:
 Podczas próby logowania nieistniejącym użytkownikiem aplikacja wyświetla zbyt ogólny komunikat: *„User does not exist.”*  
-Komunikat nie określa, czy błąd dotyczy loginu, hasła, czy obu pól, co jest niezgodne z dobrymi praktykami UX.
+Komunikat nie określa, czy błąd dotyczy loginu, hasła, czy obu pól, co jest niezgodne z dobrymi praktykami UX
+
+Środowisko
+
+Przeglądarka: Google Chrome 141.0.7390.124
+
+System: Windows 10 Home, 64 bit
+
+Tryb: normalny
+
+Urządzenie: Laptop/Desktop
+
+
+Warunki wstępne
+
+Strona Demoblaze jest dostępna.
+Użytkownik jest na stronie głównej.
+
+
+Kroki do reprodukcji
+
+ Otwórz https://www.demoblaze.com  
+2. Kliknij *“Log in”*  
+3. Wpisz login: fake_user_123  
+4. Wpisz hasło: Test1234!  
+5. Kliknij przycisk *“Log in”*  
+6. Zaobserwuj alert i zachowanie UI 
+
+
+Rzeczywisty rezultat
+
+Alert „Product added” pojawia się, ale produkt nie jest dodawany do koszyka
+
+Koszyk pozostaje pusty
+
+W DevTools → Console pojawia się błąd: "Uncaught SyntaxError: Invalid or unexpected token"
+
+Severity / Priority
+
+Severity (Ważność): Critical – błąd uniemożliwia kluczową funkcję aplikacji
+
+Priority (Priorytet): High – wymaga szybkiej naprawy
+
+Załączniki
+
+Screenshot błędu z konsoli: BR-001 Błąd koszyka.png
+
+Powiązany test case: TC-001 Dodanie produktu do koszyka.md
+
+
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+
+
+
+
+
 
 ---
 
