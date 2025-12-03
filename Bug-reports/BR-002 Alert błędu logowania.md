@@ -39,28 +39,32 @@ Kliknij przycisk “Log in”
 Zaobserwuj alert i zachowanie interfejsu użytkownika 
 
 
-Rzeczywisty rezultat
+Oczekiwany rezultat
 
-Alert „Product added” pojawia się, ale produkt nie jest dodawany do koszyka
+Czytelny, precyzyjny komunikat błędu, np.: „Nieprawidłowy login” lub „Użytkownik nie istnieje w systemie”  
+UI powinno jasno wskazywać, co użytkownik zrobił źle.  
+Brak logowania użytkownika (UI pozostaje bez zmian).  
 
-Koszyk pozostaje pusty
 
-W DevTools → Console pojawia się błąd: "Uncaught SyntaxError: Invalid or unexpected token"
+Rzeczywisty rezultat:
+
+Wyświetlany jest tylko ogólny alert: „User does not exist.” 
+Brak wyjaśnienia, co dokładnie jest nieprawidłowe.  
+Po zamknięciu alertu UI nie przekazuje dalszych informacji.  
+W DevTools → Console widoczne są drobne ostrzeżenia (WARN/VIOLATION), brak poważnych błędów JS.
+
 
 Severity / Priority
 
-Severity (Ważność): Critical – błąd uniemożliwia kluczową funkcję aplikacji
+Severity: Minor  
+Priorytet: Medium  
 
-Priority (Priorytet): High – wymaga szybkiej naprawy
 
 Załączniki
 
-Screenshot błędu z konsoli: BR-001 Błąd koszyka.png
+Screenshot błędu z konsoli: BR-002 Błąd logowania.png
 
-Powiązany test case: TC-001 Dodanie produktu do koszyka.md
-
-
-mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+Powiązany test case: TC-005 Dodanie produktu do koszyka.md
 
 
 
@@ -69,33 +73,10 @@ mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 
 
 
-## Oczekiwany rezultat:
-- Czytelny, precyzyjny komunikat błędu, np.:  
-  - „Nieprawidłowy login”  
-  - „Użytkownik nie istnieje w systemie”  
-- UI powinno jasno wskazywać, co użytkownik zrobił źle.  
-- Brak logowania użytkownika (UI pozostaje bez zmian).  
 
----
 
-## Rzeczywisty rezultat:
-- Wyświetlany jest tylko ogólny alert: *„User does not exist.”*  
-- Brak wyjaśnienia, co dokładnie jest nieprawidłowe.  
-- Po zamknięciu alertu UI nie przekazuje dalszych informacji.  
-- W DevTools → Console widoczne są drobne ostrzeżenia (WARN/VIOLATION),  
-  ale *brak poważnych błędów JS*.
 
----
 
-## Załączniki / Dowody:
-- Screenshot alertu → Bug-reports/BR-003 Logowanie błąd alert.png  
-- Screenshot DevTools (opcjonalnie)  
-
----
-
-## Priorytet / Severity:
-- *Priorytet:* Medium  
-- *Severity:* Minor  
 
 ---
 
