@@ -10,7 +10,8 @@ DATA: 2025-12-03
 
 TESTER: Olga  
 
-Identyfikator TC: TC-004
+Identyfikator: TC-004
+
 
 Warunki wstępne (preconditions):
 
