@@ -23,8 +23,8 @@ Kroki testowe (steps):
 
 1. Otwórz stronę https://www.demoblaze.com  
 2. Kliknij „Sign up” w prawym górnym rogu.  
-3. W oknie modalnym wpisz unikalną nazwę użytkownika (np. test_user_2025)  
-4. Wpisz poprawne hasło (np. Test1234!).  
+3. W oknie rejestracji wpisz unikalną nazwę użytkownika (np. testerOlga2025)  
+4. Wpisz poprawne hasło (np. Test123).  
 5. Kliknij przycisk „Sign up”.  
 6. Zatwierdź komunikat potwierdzający (OK).  
 
@@ -38,17 +38,3 @@ Rzeczywisty rezultat (actual result):
 - Rejestracja przebiega prawidłowo, użytkownik otrzymuje komunikat potwierdzający.
 
 Status: PASS  
-
-Uwagi / kroki dodatkowe:
-
-- Sprawdzić w DevTools (F12 → Network), czy wysyłane jest poprawne zapytanie signup.  
-- W przypadku FAIL należy zweryfikować, czy login jest naprawdę unikalny.
-
-Priorytet / Severity:
-
-- Priorytet: High  
-- Severity: Major  
-
-Linki / dodatkowe pliki:
-
-- Zrzut ekranu — Bug-reports/BR-002 Rejestracja.png
