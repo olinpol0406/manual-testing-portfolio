@@ -1,4 +1,4 @@
-BR-003 — Nieczytelny komunikat błędu przy logowaniu niepoprawnymi danymi
+BR-002 — Nieczytelny komunikat błędu przy logowaniu niepoprawnymi danymi
 
 Identyfikator: BR-003  
 Zgłosił: Olga  
