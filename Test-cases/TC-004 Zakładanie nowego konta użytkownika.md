@@ -4,7 +4,11 @@ APLIKACJA: https://www.demoblaze.com
 
 TESTOWANA FUNKCJONALNOŚĆ: Rejestracja nowego użytkownika  
 
-ŚRODOWISKO: Przeglądarka: Google Chrome 141.0.7390.124, System: Windows 10 Home, 64 bit, Tryb: normalny, Urządzenie: Laptop/Desktop  
+ŚRODOWISKO: 
+Przeglądarka: Google Chrome 141.0.7390.124, 
+System: Windows 10 Home, 64 bit, 
+Tryb: normalny, 
+Urządzenie: Laptop/Desktop  
 
 DATA: 2025-12-03  
 
