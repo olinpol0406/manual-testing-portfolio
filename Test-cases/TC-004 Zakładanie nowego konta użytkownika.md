@@ -1,13 +1,13 @@
 TC-002 — Zakładanie nowego konta użytkownika
 
-Plik: test-cases/TC-002 Zakladanie konta.md
-
-TC-002 — Zakładanie nowego konta
-
 APLIKACJA: https://www.demoblaze.com  
+
 TESTOWANA FUNKCJONALNOŚĆ: Rejestracja nowego użytkownika  
+
 ŚRODOWISKO: Przeglądarka: Google Chrome 141.0.7390.124, System: Windows 10 Home, 64 bit, Tryb: normalny, Urządzenie: Laptop/Desktop  
-DATA: 2025-11-18  
+
+DATA: 2025-12-03  
+
 TESTER: Olga  
 
 Identyfikator TC: TC-002
