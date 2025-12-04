@@ -6,7 +6,7 @@ tester: Olga (olinpol0406)
 data: 2025-12-04
 czas: 30 minutes
 
-UI Checklist — Demobaze
+UI Checklist — Demoblaze
 
 1. Nawigacja
 - [v ] Menu główne działa poprawnie
