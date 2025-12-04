@@ -23,8 +23,8 @@ UI Checklist — Demoblaze
 3. Produkty
 - [v ] Zdjęcia produktów ładują się poprawnie
 - [v ] Informacje o produkcie są czytelne (nazwa, cena, opis)
-- [brak ] Filtry działają poprawnie
-- [brak ] Sortowanie działa poprawnie
+- [nie dotyczy ] Filtry działają poprawnie
+- [nie dotyczy ] Sortowanie działa poprawnie
 
 4. Koszyk
 - [v ] Dodanie do koszyka aktualizuje licznik
