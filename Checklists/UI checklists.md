@@ -1,6 +1,6 @@
 META:
 project: Demoblaze
-typ: UI Checklist
+typ dokumentu: UI Checklist
 zakres: Cała aplikacja / główne widoki
 tester: Olga (olinpol0406)
 data: 2025-12-04
@@ -23,8 +23,8 @@ UI Checklist — Demoblaze
 3. Produkty
 - [v ] Zdjęcia produktów ładują się poprawnie
 - [v ] Informacje o produkcie są czytelne (nazwa, cena, opis)
-- [nie dotyczy ] Filtry działają poprawnie
-- [nie dotyczy ] Sortowanie działa poprawnie
+- [nie dotyczy (brak filtrów) ] Filtry działają poprawnie
+- [nie dotyczy (brak sortowania) ] Sortowanie działa poprawnie
 
 4. Koszyk
 - [v ] Dodanie do koszyka aktualizuje licznik
@@ -33,7 +33,7 @@ UI Checklist — Demoblaze
 - [v ] Ceny i suma liczą się poprawnie
 
 5. Responsywność
-- [v ] Strona dobrze wygląda na telefonie
+- [v ] Strona dobrze wygląda na telefonie (drobne przesunięcia elementów)
 - [v ] Elementy nie nachodzą na siebie
 - [v ] Menu mobilne działa poprawnie
 
