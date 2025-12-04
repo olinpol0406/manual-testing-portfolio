@@ -1,6 +1,6 @@
 META: 
 project: Demoblaze 
-typ dokumentu: UI Checklist 
+typ dokumentu: Smoke Checklist 
 zakres: Kluczowe funkcje aplikacji 
 tester: Olga (olinpol0406) 
 data: 2025-12-04 
@@ -35,7 +35,7 @@ i czy można ją poddać dalszym testom.
 - [v ] Można wpisać dane
 - [v ] Można wysłać formularz Signup
 - [v ] Formularz Login otwiera się
-- [v ] Login działa poprawnie z istniejącymi danymi 
+- [v ] Login działa poprawnie z istniejącymi danymi (konto testowe)
 - [v ] Niepoprawne dane wyświetlają błąd (alert)
 
 6. Podstawowa stabilność
@@ -44,5 +44,5 @@ i czy można ją poddać dalszym testom.
 
 Status testów smoke:
 - [v ] Aplikacja stabilna  
-- [x ] Aplikacja niestabilna — wymaga zgłoszenia błędów
+- [ ] Aplikacja niestabilna — wymaga zgłoszenia błędów
       
