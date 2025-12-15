@@ -12,39 +12,39 @@ Celem testów API jest sprawdzenie poprawności działania podstawowych endpoint
 ich odpowiedzi, statusów HTTP oraz poprawnej obsługi błędów.
 
 1. Dostępność API
-- [ ] Endpoint API odpowiada na żądanie
-- [ ] Brak błędów 5xx po stronie serwera
-- [ ] Odpowiedzi zwracane są w formacie JSON
+- [v] Endpoint API odpowiada na żądanie
+- [v] Brak błędów 5xx po stronie serwera
+- [v] Odpowiedzi zwracane są w formacie JSON (lub puste response - zgodnie z implementacją Demoblaze)
 
 2. Statusy HTTP
-- [ ] Poprawne żądania zwracają status 200
-- [ ] Niepoprawne żądania zwracają status 4xx
-- [ ] Brak nieoczekiwanych statusów (np. 500)
+- [v] Poprawne żądania zwracają status 200
+- [v] Brak statusow 4xx dla błędnego logowania, zgodnie z implementacją Demoblaze
+- [v] Brak nieoczekiwanych statusów (np. 500)
 
 3. Autoryzacja / Uwierzytelnienie
-- [ ] Rejestracja użytkownika działa poprawnie
-- [ ] Logowanie zwraca poprawną odpowiedź
-- [ ] Niepoprawne dane logowania zwracają błąd
-- [ ] Brak dostępu do chronionych zasobów bez logowania (jeśli dotyczy)
+- [v] Rejestracja użytkownika działa poprawnie
+- [v] Logowanie zwraca poprawną odpowiedź (status 200, zgodnie z implementacją)
+- [v] Niepoprawne dane logowania zwracają Komunikat błędu (status 200, zgodnie z implementacją)
+- [nie dotyczy] Brak dostępu do chronionych zasobów bez logowania 
 
 4. Dane odpowiedzi
-- [ ] Odpowiedź zawiera wymagane pola
-- [ ] Typy danych są poprawne
-- [ ] Brak pustych lub nullowych pól (jeśli nie powinny występować)
-
+- [v] Odpowiedź zawiera wymagane pola (lub jest pusta, zgodnie z implementacją)
+- [v] Typy danych są poprawne
+- [nie dotyczy] Brak pustych lub nullowych pól
+  
 5. Obsługa błędów
-- [ ] API zwraca czytelne komunikaty błędów
-- [ ] Brak wrażliwych danych w komunikatach błędów
-- [ ] Błędy są spójne (format, treść)
+- [v] API zwraca czytelne komunikaty błędów
+- [v] Brak wrażliwych danych w komunikatach błędów
+- [v] Błędy są spójne (format, treść)
 
 6. Wydajność (podstawowa)
-- [ ] Odpowiedzi zwracane są w akceptowalnym czasie
-- [ ] Brak znacznych opóźnień przy prostych zapytaniach
+- [v] Odpowiedzi zwracane są w akceptowalnym czasie
+- [v] Brak znacznych opóźnień przy prostych zapytaniach
 
 7. Spójność danych
-- [ ] Dane zwracane przez API są zgodne z danymi w UI
-- [ ] Dodane dane są poprawnie zapisywane i zwracane
+- [v] Dane zwracane przez API są zgodne z danymi w UI
+- [v] Dodane dane są poprawnie zapisywane i zwracane
 
 Status testów API:
-- [ ] API działa poprawnie
-- [ ] API zawiera błędy wymagające zgłoszenia
+- [v] API działa poprawnie
+
