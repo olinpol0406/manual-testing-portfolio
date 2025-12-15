@@ -1,14 +1,13 @@
 META:
-project: DemoBlaze
+project: Demollaze
 typ dokumentu: API Checklist
 zakres: Podstawowe endpointy API aplikacji
 tester: Olga (olinpol0406)
-data: 2025-12-04
+data: 2025-12-15
 narzędzia: DevTools (Network), Postman
 
 API Checklist – DemoBlaze
 
-Cel testów:
 Celem testów API jest sprawdzenie poprawności działania podstawowych endpointów,
 ich odpowiedzi, statusów HTTP oraz poprawnej obsługi błędów.
 
