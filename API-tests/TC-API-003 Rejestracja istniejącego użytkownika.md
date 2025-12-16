@@ -19,7 +19,7 @@ Kroki:
 
 Oczekiwany rezultat:
 - Status HTTP: 200
-- Komunikat informujący, że użytkownik już istnieje
+- Komunikat informujący, że użytkownik już istnieje (zgodnie z implementacją API)
 
 Rzeczywisty rezultat:
 - Status HTTP: 200
