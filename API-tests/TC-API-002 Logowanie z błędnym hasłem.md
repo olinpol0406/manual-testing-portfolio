@@ -1,7 +1,7 @@
-TC-API-002 – Logowanie z błędnym hasłem
 
-Test Case ID: TC_API_02  
-Nazwa: Logowanie użytkownika – błędne hasło  
+Test Case ID: TC-API-002  
+Nazwa: Logowanie z błędnym hasłem
+ 
 Endpoint: /login  
 Metoda: POST  
 Narzędzie: Postman  
@@ -9,7 +9,7 @@ Narzędzie: Postman
 Dane wejściowe:
 {
   "username": "test_user",
-  "password": "wrong_password"
+  "password": wrong_password"
 }
 
 Kroki:
