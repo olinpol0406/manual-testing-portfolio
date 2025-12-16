@@ -6,8 +6,8 @@ Narzędzie: Postman
 
 Dane wejściowe:
 {
-  "username": "test_user",
-  "password": "correct_password"
+  "username": "testerOlga2025",
+  "password": "Test123"
 }
 
 Kroki:
