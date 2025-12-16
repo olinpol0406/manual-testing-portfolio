@@ -23,8 +23,10 @@ Oczekiwany rezultat:
 
 Rzeczywisty rezultat:
 - Status HTTP: 200
-- Odpowiedź zgodna z implementacją DemoBlaze
+- Odpowiedź zawiera errorMessage: "Wrong password."
 
 Status testu:
-PASS
+FAIL
+
+Uwagi: Niespójność pomiędzy odpowiedzią API, a zachowaniem UI. API zwraca komunikat błędu, mimo poprawnego logowania użytkownika w interfejsie.
 
