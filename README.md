@@ -29,9 +29,10 @@ Kolekcje zapytań API oraz dokumentacja testów wykonanych w Postmanie.
 Notatki z sesji testów eksploracyjnych przeprowadzonych na wybranych aplikacjach.
 
 
+
 Aplikacje wykorzystane do nauki
 
-Do ćwiczeń wykorzystuję ogólnodostępne aplikacje do nauki testowania:
+Do ćwiczeń zamierzam wykorzystać ogólnodostępne aplikacje do nauki testowania jak np:
 
 Demoblaze – testy funkcjonalne i regresyjne (sklep internetowy)
 
