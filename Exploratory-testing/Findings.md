@@ -19,13 +19,27 @@ oraz analiza odpowiedzi API w takich przypadkach.
 
 ET-002 - Test eksploracyjny: Proces zakupowy
 
-Obserwacja 1:
-Obserwacja 2:
-Obserwacja 3:
-Obserwacja 4:
-Obserwacja 5:
-Obserwacja 6:
-Obserwacja 7:
+Obserwacja 1: – brak walidacji danych w formularzu zamówienia
+Formularz składania zamówienia umożliwia wysłanie pustych lub
+niekompletnych danych bez wcześniejszej walidacji po stronie interfejsu użytkownika.
+
+Obserwacja 2 – brak jednoznacznego potwierdzenia złożenia zamówienia
+Po zatwierdzeniu zamówienia komunikat potwierdzający nie zawiera
+szczegółowych informacji dotyczących zamówienia, takich jak lista produktów
+czy całkowita kwota.
+
+Obserwacja 3 – możliwość wielokrotnego zatwierdzenia zamówienia
+Wielokrotne kliknięcie przycisku potwierdzającego zamówienie
+może prowadzić do niejednoznacznego zachowania aplikacji.
+
+Ryzyko – niepoprawne przetwarzanie zamówień
+Brak walidacji danych oraz jednoznacznego potwierdzenia zamówienia
+może w realnej aplikacji prowadzić do błędnych lub zdublowanych zamówień.
+
+Pomysł na dalsze testy
+Sprawdzenie zachowania aplikacji przy wielokrotnym składaniu zamówienia
+oraz analiza odpowiedzi API odpowiedzialnych za tworzenie zamówień.
+
 
 
 ET003 - Test eksploracyjny: Nawigacja UX
