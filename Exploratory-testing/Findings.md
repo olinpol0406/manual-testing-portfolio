@@ -17,6 +17,8 @@ Sprawdzenie zachowania aplikacji po wielu nieudanych próbach logowania
 oraz analiza odpowiedzi API w takich przypadkach.
 
 
+
+
 ET-002 - Test eksploracyjny: Proces zakupowy
 
 Obserwacja 1: – brak walidacji danych w formularzu zamówienia
@@ -42,13 +44,29 @@ oraz analiza odpowiedzi API odpowiedzialnych za tworzenie zamówień.
 
 
 
+
 ET003 - Test eksploracyjny: Nawigacja UX
 
-Obserwacja 1:
-Obserwacja 2:
-Obserwacja 3:
-Obserwacja 4:
-Obserwacja 5:
-Obserwacja 6:
-Obserwacja 7:
+Obserwacja 1: - brak wyraźnej informacji o aktualnym kontekście
+Podczas nawigacji między kategoriami produktów nie zawsze jest jasne,
+w jakiej kategorii aktualnie znajduje się użytkownik.
+
+Obserwacja 2 – Ograniczona informacja zwrotna po akcjach użytkownika
+Po wykonaniu niektórych akcji (np. przejście między widokami)
+aplikacja nie zawsze dostarcza jednoznacznej informacji,
+że akcja została wykonana poprawnie.
+
+Obserwacja 3 – Utrata kontekstu po odświeżeniu strony
+Po odświeżeniu strony użytkownik może utracić aktualny kontekst nawigacyjny,
+co może powodować dezorientację.
+
+Ryzyko – Gorsze doświadczenie użytkownika
+Brak spójnej nawigacji i czytelnej informacji zwrotnej
+może w realnej aplikacji prowadzić do frustracji użytkownika
+oraz trudności w realizacji podstawowych celów.
+
+Pomysł na dalsze testy
+Sprawdzenie zachowania aplikacji w różnych przeglądarkach
+oraz analiza nawigacji z perspektywy użytkownika mobilnego.
+
 
