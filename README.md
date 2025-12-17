@@ -1,7 +1,7 @@
 Manual Testing Portfolio
 
 
-Repozytorium zawiera moje praktyczne ćwiczenia z zakresu testowania manualnego, które wykonuję podczas tworzenia portfolio testera oprogramowania.
+Repozytorium zawiera moje praktyczne ćwiczenia z zakresu testowania manualnego, które wykonuję podczas tworzenia portfolio testera oprogramowania. Prezentuje ono praktyczne umiejętności testowania manualnego zdobywane podczas pracy z aplikacjami demo oraz nauki narzędzi testerskich.
 
 
 Zakres projektu
